@@ -1,0 +1,4 @@
+mybuild:
+    script:
+    - echo 'echo build for rwanda'
+    - "cd /var/www/coronaweapp && git pull origin master && sudo systemctl restart coronawebapp"
